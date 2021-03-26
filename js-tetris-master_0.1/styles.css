@@ -1,0 +1,78 @@
+* {
+  font-family: 'Press Start 2P', cursive;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.grid {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  /*grid-template-columns: 350px 320px 200px;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, 0);*/
+}
+
+.left-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.right-column {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.value_score {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+}
+
+#score {
+  padding-top: 10px;
+}
+
+.value {
+  border: 3px solid #aae4df;
+  padding: 20px;
+}
+
+.next {
+  width: 120px;
+  height: 120px;
+}
+
+.game-board {
+  border: 3px solid #aae4df;
+  background-color: #2d2d2d;
+}
+
+.play-button {
+  background-color: #4caf50;
+  font-size: 16px;
+  padding: 15px 30px;
+  cursor: pointer;
+}
+
+#pause-btn {
+  display: none;
+}
+
+#sound-speaker{
+  font-size:30px;
+}
+
+.sound-item{
+  cursor:pointer;
+}
+
+@media(max-width: 320px){
+
+}
